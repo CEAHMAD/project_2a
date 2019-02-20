@@ -1,5 +1,5 @@
 {
-  "homepage" :"http://CEAHMAD.github.io/project-2/" ,
+  "homepage": "http://CEAHMAD.github.io/project-2a",
   "name": "to-dolist",
   "version": "0.1.0",
   "private": true,
@@ -9,8 +9,8 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
