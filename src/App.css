@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* 
+*{
+  background-color : rgb(209, 246, 255) ;
+} */
+
+.input {
+ 
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: fantasy;
+  font-size: 25px ;
+
+ 
+  
+}
+
+.placeholder {
+  color: rgb(189, 165, 165);
+}
+
+
+div{
+  margin-left: 20px ;
+}
+
+.true{
+text-decoration: line-through;
+text-decoration-color: #BD6983;
+text-decoration-style: dotted ;
+
+}
+
+
+.input{
+  border: 5px solid white; 
+  -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 0 10px 0;
+  font-family: fantasy;
+  font-size: 25px ;
+}
+
+.btn {
+  background-color:rgb(31, 92, 92) !important;
+  color:white !important;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+  padding: 15px;
+  border: 5px solid white;
+  font-family: fantasy;
+  font-size: 25px ;
+}
+
+/* Change background and text color on hover */
+.btn:hover {
+  background-color:white !important;
+  color:#BD6983 !important;
+  font-size: 25px ;
+  
+}
+
+
+h1{
+font-family: Comic Sans MS ;
+text-align: center;
+margin-top: 100px;
+color: darkslategray ;
+} 
+
+
+li{
+  font-family: Chalkduster ;
+  text-align: center ;
+  margin-top: 30px ;
+  list-style: none;
+  font-size: 30px;
+}
+
+
+
+
+form{
+  text-align: center ;
+  margin-left : 650px ;
+  margin-bottom: 200px;
+
+} 
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+body .container1, body .container2, body .container3, html .container1, html .container2, html .container3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .container1, html .container1 {
+  background-image: linear-gradient(#5583be, #eebaa5, #de7d8e 70%);
+}
+body .container2, html .container2 {
+  background: #5583BE;
+}
+body .container3, html .container3 {
+  background-image: linear-gradient(#283142 20%, #ef4700 50%, #ff9919 70%);
+}
+body .content, html .content {
+  background-image: url("http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Silhouettes-PNG/Palm_Trees_Silhouette_PNG_Clip_Art_Image.png?m=1463584089");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  left: -120px;
+ 
+}
+
+@keyframes opacity-change1 {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes opacity-change2 {
+  0%, 100%, 50% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.5;
+  }
+}
+@keyframes opacity-change3 {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.container1 {
+  -moz-animation: opacity-change1 linear 5s infinite;
+  -webkit-animation: opacity-change1 linear 5s infinite;
+  animation: opacity-change1 linear 5s infinite;
+}
+
+.container2 {
+  -moz-animation: opacity-change2 linear 5s infinite;
+  -webkit-animation: opacity-change2 linear 5s infinite;
+  animation: opacity-change2 linear 5s infinite;
+}
+
+.container3 {
+  -moz-animation: opacity-change3 linear 5s infinite;
+  -webkit-animation: opacity-change3 linear 5s infinite;
+  animation: opacity-change3 linear 5s infinite;
+}
