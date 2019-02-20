@@ -6,6 +6,8 @@ class Todolist extends Component {
     checked: false
   }
 
+
+  // checked list by make it a line through on text by click
   checkList =()=>{
       
     if(this.state.checked === 'true'){
