@@ -18,7 +18,7 @@ This is a simple To-Do List made with React.
 
 
 ## Future extensions.
-create an new options that allowed users to save list in time, update, and reminder by time .
+create a new options that allowed users to save list in time, update, and reminder by time .
 
 
 ## Acknowledgements.
