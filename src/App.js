@@ -12,7 +12,7 @@ class App extends Component {
     todos: []   
 
   }
-    
+    // this function for take the value from input 
     onChange = (event) => {
       this.setState({ 
         todo: event.target.value ,
@@ -21,6 +21,8 @@ class App extends Component {
         });
     
     }
+
+    // this functon to make a copy from "todo" and push to the array 
     onSubmit =(event) =>{
       event.preventDefault();
       
@@ -37,7 +39,7 @@ class App extends Component {
     }
    
 
-    
+    // delete list
     newList = ()=>{
       this.setState({
         todo:'',
@@ -54,7 +56,7 @@ class App extends Component {
     return (
       <div>
            
-      <h1>To Do List</h1>
+      <h1>Todo List</h1>
         <form className='cl' onSubmit={this.onSubmit}>
           <input className='input'  placeholder="...TO DO" onChange={this.onChange} value={this.state.todo}/>
           <button className="btn">Add</button>
