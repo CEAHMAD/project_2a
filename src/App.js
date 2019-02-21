@@ -59,7 +59,7 @@ class App extends Component {
       <h1>Todo List</h1>
         <form className='cl' onSubmit={this.onSubmit}>
           <input className='input'  placeholder="...TO DO" onChange={this.onChange} value={this.state.todo}/>
-          <button className="btn">Add</button>
+          <button className="btn">Add </button>
           <button className="btn" onClick={this.newList}>New List</button>
           {todoList1}
         </form>
